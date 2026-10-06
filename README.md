@@ -30,14 +30,6 @@ npm install
 npm run dev
 ```
 
-## Deploy to Netlify
-
-1. Push this folder to a GitHub repository.
-2. On Netlify: **Add new site → Import an existing project** and pick the repo.
-3. Build command `npm run build`, publish directory `dist` (already set in `netlify.toml`).
-
-`netlify.toml` and `public/_redirects` make page refreshes work on routes like `/shop`.
-
 ## Project structure
 
 ```
@@ -50,7 +42,4 @@ src/
   styles.css       all styling
 ```
 
-## Limitations and next steps
 
-- The admin page has no login and data is per-browser. Next step: Supabase or Firebase for a real database and auth.
-- Checkout does not take payment. Next step: Razorpay test mode.
